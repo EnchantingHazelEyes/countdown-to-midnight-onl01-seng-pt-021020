@@ -15,5 +15,4 @@ end
 def countdown_with_sleep(time)
   time = Time.now
     sleep 1.seconds until time.now > time + 10.seconds
-    end
 end
