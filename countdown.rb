@@ -9,7 +9,7 @@ def countdown(seconds)
 end
 
 def countdown_with_sleep(time)
-  time = Time.now
-  sleep 1.seconds until time.now > time + 10.seconds
+  time = 10
+  sleep 1.seconds until time > time + 10.seconds
 end
 
