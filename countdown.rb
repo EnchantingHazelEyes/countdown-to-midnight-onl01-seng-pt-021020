@@ -1,6 +1,7 @@
 seconds = 10
 
 def countdown_with_sleep(time)
+  time - Time.now
   
 
 def countdown(seconds)
