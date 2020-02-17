@@ -1,6 +1,6 @@
 seconds = 10
 
-def countdown_with_sleep(num)
+def countdown_with_sleep(time)
   
 
 def countdown(seconds)
