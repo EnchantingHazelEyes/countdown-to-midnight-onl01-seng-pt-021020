@@ -10,8 +10,8 @@ def countdown(seconds)
 
 def countdown_with_sleep(seconds)
    while seconds > 0
-  sleep 1
-  secondds -= 1
-end
+    sleep 1
+    seconds -= 1
+   end
 end
 
