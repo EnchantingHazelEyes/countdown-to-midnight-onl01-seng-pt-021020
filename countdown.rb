@@ -1,9 +1,5 @@
 seconds = 10
 
-def countdown_with_sleep(time)
-  time - Time.now
-  sleep 1.seconds 
-
 def countdown(seconds)
   while seconds > 0
     puts "#{seconds} SECOND(S)!"
